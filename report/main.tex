@@ -1,0 +1,242 @@
+\documentclass[12pt, a4paper]{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{cite}
+\usepackage{url}
+\usepackage{tcolorbox}  % for colored boxes in appendix
+
+\geometry{
+    a4paper,
+    top=2.5cm,
+    bottom=2.5cm,
+    left=2.5cm,
+    right=2.5cm
+}
+
+\hypersetup{
+    colorlinks=false,
+    linkbordercolor={0 0 0},
+    citebordercolor={0 0 0}
+}
+
+\onehalfspacing
+
+% ─────────────────────────────────────────────────────────────────────────────
+\begin{document}
+
+% ── Title page ───────────────────────────────────────────────────────────────
+\begin{titlepage}
+\centering
+\vspace*{1cm}
+
+{\scshape\Large Department of Mathematics\\and Computer Science\par}
+\vspace{0.5cm}
+{\scshape\large University of Southern Denmark\par}
+{\scshape\large Bachelor Thesis in Artificial Intelligence\par}
+
+\vspace{1.5cm}
+\noindent\rule{\textwidth}{0.4pt}
+{\huge\bfseries Approximate Similarity Search:\\[0.3em]
+\large Evaluation on Image Retrieval, Out-of-Distribution Detection,\\
+and Recommender Systems\par}
+\noindent\rule{\textwidth}{0.4pt}
+
+\vspace{2cm}
+
+\begin{center}
+\itshape Author(s)\\
+\upshape Emil [Efternavn]\\
+[email]@student.sdu.dk
+\end{center}
+
+\vspace{1cm}
+
+\begin{center}
+\itshape Supervisor\\
+\upshape Ricardo J. G. B. Campello\\
+Professor
+\end{center}
+
+\vfill
+{\large May 2026\par}
+
+\vspace{1cm}
+% SDU logo — upload sdu_logo.png to Overleaf and uncomment:
+% \includegraphics[width=0.25\textwidth]{sdu_logo}
+
+\end{titlepage}
+
+% ── Abstract ─────────────────────────────────────────────────────────────────
+\begin{abstract}
+\paragraph{English}
+Your abstract in English.
+
+\paragraph{Danish}
+Your abstract in Danish.
+\end{abstract}
+\newpage
+
+% ── Acknowledgments (optional) ───────────────────────────────────────────────
+\chapter*{Acknowledgments}
+Your acknowledgments, if any (optional).
+\newpage
+
+% ── Table of contents ────────────────────────────────────────────────────────
+\tableofcontents
+\newpage
+
+% ─────────────────────────────────────────────────────────────────────────────
+\chapter{Introduction}
+% ─────────────────────────────────────────────────────────────────────────────
+% Key elements: Contextualization, Motivation, Goals and Contributions.
+% Suggested length: ~2 pages.
+
+
+
+% ─────────────────────────────────────────────────────────────────────────────
+\chapter{Research Question(s) and Hypothesis(es)}
+% ─────────────────────────────────────────────────────────────────────────────
+% What are the specific research questions?
+% What hypotheses will you attempt to confirm or reject?
+% Suggested length: ~1-2 pages.
+
+
+
+% ─────────────────────────────────────────────────────────────────────────────
+\chapter{Methods and Materials}
+% ─────────────────────────────────────────────────────────────────────────────
+% Concise summary of datasets, algorithms, experimental setup, and evaluation.
+% Include detailed specifications of your free choices (esp. recommendation task).
+% Brief high-level description (~0.5 page) of each ANN algorithm with hyperparameters.
+% Suggested length: ~5-10 pages.
+
+\section{Datasets}
+
+\subsection{ImageNet100}
+
+ImageNet100 is a curated subset of the full ImageNet collection \cite{deng2009imagenet}, containing images from 100 object categories such as aeroplanes, cars, and chairs. For the purposes of this project, the collection is pre-organized into two subsets: InDSearch, containing approximately 95,000 images, and InDQuery, containing approximately 40,000 images, each covering the same 100 classes.
+
+All images are resized to $224 \times 224$ pixels and passed through a WideResNet-50-2 neural network \cite{zagoruyko2016wide} to extract 2,048-dimensional feature vectors. Two network configurations are used: Conf1, which uses standard ImageNet-pretrained weights, and Conf2, which uses contrastively fine-tuned weights. The motivation for the two configurations is tied to the OoD detection methods described in Section~\ref{sec:ood_methods}. Feature extraction is computationally demanding, so all feature vectors were extracted once and stored on disk prior to the experiments to avoid repeated computation.
+
+In the similarity search task, InDSearch serves as the database being searched, while InDQuery provides the query vectors. In the OoD detection task, InDSearch serves as the in-distribution reference set, InDQuery as in-distribution test queries, and Places365 as out-of-distribution test queries.
+
+Places365 \cite{zhou2017places} is a collection of 36,500 scene images across 365 indoor and outdoor categories such as kitchens, streets, and offices. Since it depicts a fundamentally different type of visual content than ImageNet100, it serves as the out-of-distribution query set in the OoD experiments. The same preprocessing is applied: images are resized to $224 \times 224$ pixels and feature vectors are extracted using both Conf1 and Conf2.
+
+
+
+\subsection{MovieLens 10M}
+
+
+
+\section{Algorithms}
+
+\subsection{Exact $k$-Nearest Neighbors}
+
+
+
+\subsection{Locality Sensitive Hashing (LSH)}
+
+
+
+\subsection{Hierarchical Navigable Small World (HNSW)}
+
+
+
+\section{Out-of-Distribution Detection Methods}
+\label{sec:ood_methods}
+
+\subsection{Deep Nearest Neighbors}
+
+
+
+\subsection{NN-Guide}
+
+
+
+\section{Recommendation System}
+\label{sec:rec_system}
+
+\subsection{Item-Based $k$-Nearest Neighbors}
+
+
+
+\section{Evaluation Metrics}
+
+
+
+% ─────────────────────────────────────────────────────────────────────────────
+\chapter{Results and Analyses}
+% ─────────────────────────────────────────────────────────────────────────────
+% All results must be explicitly referenced and discussed in text.
+% Use \ref{} and \label{} for all figures and tables.
+
+\section{Similarity Search Task}
+
+
+
+\section{Out-of-Distribution Detection Task}
+
+
+
+\section{Recommendation Task}
+
+
+
+% ─────────────────────────────────────────────────────────────────────────────
+\chapter{Discussion}
+% ─────────────────────────────────────────────────────────────────────────────
+% High-level interpretations and main takeaways across all results.
+
+
+
+% ─────────────────────────────────────────────────────────────────────────────
+\chapter{Conclusions and Perspectives}
+% ─────────────────────────────────────────────────────────────────────────────
+% Final remarks, limitations, and possible future extensions.
+% Suggested length: ~1-2 pages.
+
+
+
+% ─────────────────────────────────────────────────────────────────────────────
+\bibliographystyle{plain}
+\bibliography{references}
+
+% ─────────────────────────────────────────────────────────────────────────────
+\appendix
+\chapter*{Appendix: Individual Report}
+\addcontentsline{toc}{chapter}{Appendix: Individual Report}
+
+\paragraph{Task Division} Not Applicable (individual project).
+
+\paragraph{Name and Individual Contribution} Not Applicable.
+
+\paragraph{Organizational Issues}
+% Describe any organizational/communication issues encountered.
+
+\paragraph{Went Better than Planned}
+% Describe what you are particularly proud of.
+
+\paragraph{Went Worse than Planned}
+% What did not work well? What could be done differently?
+
+\paragraph{Main Technical Takeaways}
+% Main technical lessons learned and their relevance to your professional journey.
+
+\paragraph{Other Takeaways}
+% Non-technical lessons (organization, writing, reporting, etc.).
+
+\paragraph{What If\ldots}
+% If you had to do it again, what would you do differently?
+
+\end{document}

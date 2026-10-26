@@ -1,0 +1,265 @@
+strategy,algorithm,k,hyperparams,auroc
+dnn,exact,1,{},0.957912502739726
+dnn,random,1,{},0.2376224205479452
+dnn,hnsw,1,"{'M': 16, 'ef_construction': 16, 'ef_search': 32}",0.9516882948630137
+dnn,hnsw,1,"{'M': 16, 'ef_construction': 16, 'ef_search': 256}",0.952313697260274
+dnn,hnsw,1,"{'M': 16, 'ef_construction': 16, 'ef_search': 512}",0.9525557438356164
+dnn,hnsw,1,"{'M': 16, 'ef_construction': 16, 'ef_search': 1024}",0.9534558952054796
+dnn,hnsw,1,"{'M': 16, 'ef_construction': 64, 'ef_search': 32}",0.948298248630137
+dnn,hnsw,1,"{'M': 16, 'ef_construction': 64, 'ef_search': 256}",0.9548883154109588
+dnn,hnsw,1,"{'M': 16, 'ef_construction': 64, 'ef_search': 512}",0.9546765349315068
+dnn,hnsw,1,"{'M': 16, 'ef_construction': 64, 'ef_search': 1024}",0.9549854818493152
+dnn,hnsw,1,"{'M': 16, 'ef_construction': 256, 'ef_search': 32}",0.9538315866438356
+dnn,hnsw,1,"{'M': 16, 'ef_construction': 256, 'ef_search': 256}",0.9559191712328766
+dnn,hnsw,1,"{'M': 16, 'ef_construction': 256, 'ef_search': 512}",0.9559407030821916
+dnn,hnsw,1,"{'M': 16, 'ef_construction': 256, 'ef_search': 1024}",0.9559760589041096
+dnn,hnsw,1,"{'M': 32, 'ef_construction': 16, 'ef_search': 32}",0.9528173503424656
+dnn,hnsw,1,"{'M': 32, 'ef_construction': 16, 'ef_search': 256}",0.951890080479452
+dnn,hnsw,1,"{'M': 32, 'ef_construction': 16, 'ef_search': 512}",0.9529257315068492
+dnn,hnsw,1,"{'M': 32, 'ef_construction': 16, 'ef_search': 1024}",0.9533020630136988
+dnn,hnsw,1,"{'M': 32, 'ef_construction': 64, 'ef_search': 32}",0.9506174897260272
+dnn,hnsw,1,"{'M': 32, 'ef_construction': 64, 'ef_search': 256}",0.9547619465753424
+dnn,hnsw,1,"{'M': 32, 'ef_construction': 64, 'ef_search': 512}",0.9545953010273972
+dnn,hnsw,1,"{'M': 32, 'ef_construction': 64, 'ef_search': 1024}",0.9553956739726028
+dnn,hnsw,1,"{'M': 32, 'ef_construction': 256, 'ef_search': 32}",0.9550604592465752
+dnn,hnsw,1,"{'M': 32, 'ef_construction': 256, 'ef_search': 256}",0.9568509106164382
+dnn,hnsw,1,"{'M': 32, 'ef_construction': 256, 'ef_search': 512}",0.9574472130136986
+dnn,hnsw,1,"{'M': 32, 'ef_construction': 256, 'ef_search': 1024}",0.9571429698630136
+dnn,hnsw,1,"{'M': 256, 'ef_construction': 16, 'ef_search': 32}",0.957176242808219
+dnn,hnsw,1,"{'M': 256, 'ef_construction': 16, 'ef_search': 256}",0.9575163859589042
+dnn,hnsw,1,"{'M': 256, 'ef_construction': 16, 'ef_search': 512}",0.9581257739726028
+dnn,hnsw,1,"{'M': 256, 'ef_construction': 16, 'ef_search': 1024}",0.9577844674657532
+dnn,hnsw,1,"{'M': 256, 'ef_construction': 64, 'ef_search': 32}",0.9562530794520548
+dnn,hnsw,1,"{'M': 256, 'ef_construction': 64, 'ef_search': 256}",0.957429951369863
+dnn,hnsw,1,"{'M': 256, 'ef_construction': 64, 'ef_search': 512}",0.957134860958904
+dnn,hnsw,1,"{'M': 256, 'ef_construction': 64, 'ef_search': 1024}",0.957363778082192
+dnn,hnsw,1,"{'M': 256, 'ef_construction': 256, 'ef_search': 32}",0.9467273599315068
+dnn,hnsw,1,"{'M': 256, 'ef_construction': 256, 'ef_search': 256}",0.9566168821917808
+dnn,hnsw,1,"{'M': 256, 'ef_construction': 256, 'ef_search': 512}",0.9566887825342466
+dnn,hnsw,1,"{'M': 256, 'ef_construction': 256, 'ef_search': 1024}",0.95674516130137
+dnn,exact,5,{},0.9566319174657534
+dnn,random,5,{},0.2381334386130137
+dnn,hnsw,5,"{'M': 16, 'ef_construction': 16, 'ef_search': 32}",0.9473670976027396
+dnn,hnsw,5,"{'M': 16, 'ef_construction': 16, 'ef_search': 256}",0.9479105301369865
+dnn,hnsw,5,"{'M': 16, 'ef_construction': 16, 'ef_search': 512}",0.9491304811643836
+dnn,hnsw,5,"{'M': 16, 'ef_construction': 16, 'ef_search': 1024}",0.9495029006849314
+dnn,hnsw,5,"{'M': 16, 'ef_construction': 64, 'ef_search': 32}",0.9496604239726028
+dnn,hnsw,5,"{'M': 16, 'ef_construction': 64, 'ef_search': 256}",0.9530063513698632
+dnn,hnsw,5,"{'M': 16, 'ef_construction': 64, 'ef_search': 512}",0.9532645089041096
+dnn,hnsw,5,"{'M': 16, 'ef_construction': 64, 'ef_search': 1024}",0.9539851568493152
+dnn,hnsw,5,"{'M': 16, 'ef_construction': 256, 'ef_search': 32}",0.9524415743150684
+dnn,hnsw,5,"{'M': 16, 'ef_construction': 256, 'ef_search': 256}",0.9548709438356164
+dnn,hnsw,5,"{'M': 16, 'ef_construction': 256, 'ef_search': 512}",0.9547933236301368
+dnn,hnsw,5,"{'M': 16, 'ef_construction': 256, 'ef_search': 1024}",0.9549831181506848
+dnn,hnsw,5,"{'M': 32, 'ef_construction': 16, 'ef_search': 32}",0.9484766962328768
+dnn,hnsw,5,"{'M': 32, 'ef_construction': 16, 'ef_search': 256}",0.9490666876712328
+dnn,hnsw,5,"{'M': 32, 'ef_construction': 16, 'ef_search': 512}",0.9492645482876712
+dnn,hnsw,5,"{'M': 32, 'ef_construction': 16, 'ef_search': 1024}",0.949903226369863
+dnn,hnsw,5,"{'M': 32, 'ef_construction': 64, 'ef_search': 32}",0.9493712595890412
+dnn,hnsw,5,"{'M': 32, 'ef_construction': 64, 'ef_search': 256}",0.952069176369863
+dnn,hnsw,5,"{'M': 32, 'ef_construction': 64, 'ef_search': 512}",0.9529494465753424
+dnn,hnsw,5,"{'M': 32, 'ef_construction': 64, 'ef_search': 1024}",0.9536231339041096
+dnn,hnsw,5,"{'M': 32, 'ef_construction': 256, 'ef_search': 32}",0.954270940410959
+dnn,hnsw,5,"{'M': 32, 'ef_construction': 256, 'ef_search': 256}",0.9549869619863014
+dnn,hnsw,5,"{'M': 32, 'ef_construction': 256, 'ef_search': 512}",0.95586586130137
+dnn,hnsw,5,"{'M': 32, 'ef_construction': 256, 'ef_search': 1024}",0.955853773630137
+dnn,hnsw,5,"{'M': 256, 'ef_construction': 16, 'ef_search': 32}",0.9576346842465754
+dnn,hnsw,5,"{'M': 256, 'ef_construction': 16, 'ef_search': 256}",0.9572488619863012
+dnn,hnsw,5,"{'M': 256, 'ef_construction': 16, 'ef_search': 512}",0.9569127616438357
+dnn,hnsw,5,"{'M': 256, 'ef_construction': 16, 'ef_search': 1024}",0.956761498630137
+dnn,hnsw,5,"{'M': 256, 'ef_construction': 64, 'ef_search': 32}",0.9549514736301368
+dnn,hnsw,5,"{'M': 256, 'ef_construction': 64, 'ef_search': 256}",0.9559522880136986
+dnn,hnsw,5,"{'M': 256, 'ef_construction': 64, 'ef_search': 512}",0.9558846626712328
+dnn,hnsw,5,"{'M': 256, 'ef_construction': 64, 'ef_search': 1024}",0.9565047434931506
+dnn,hnsw,5,"{'M': 256, 'ef_construction': 256, 'ef_search': 32}",0.9537096017123288
+dnn,hnsw,5,"{'M': 256, 'ef_construction': 256, 'ef_search': 256}",0.955930544520548
+dnn,hnsw,5,"{'M': 256, 'ef_construction': 256, 'ef_search': 512}",0.9548016589041096
+dnn,hnsw,5,"{'M': 256, 'ef_construction': 256, 'ef_search': 1024}",0.9558243345890408
+dnn,exact,10,{},0.9558936383561644
+dnn,random,10,{},0.2374399308219178
+dnn,hnsw,10,"{'M': 16, 'ef_construction': 16, 'ef_search': 32}",0.9457223229452054
+dnn,hnsw,10,"{'M': 16, 'ef_construction': 16, 'ef_search': 256}",0.9462711719178084
+dnn,hnsw,10,"{'M': 16, 'ef_construction': 16, 'ef_search': 512}",0.9457090479452056
+dnn,hnsw,10,"{'M': 16, 'ef_construction': 16, 'ef_search': 1024}",0.9474122404109592
+dnn,hnsw,10,"{'M': 16, 'ef_construction': 64, 'ef_search': 32}",0.9487021671232876
+dnn,hnsw,10,"{'M': 16, 'ef_construction': 64, 'ef_search': 256}",0.9516351184931507
+dnn,hnsw,10,"{'M': 16, 'ef_construction': 64, 'ef_search': 512}",0.9524548051369864
+dnn,hnsw,10,"{'M': 16, 'ef_construction': 64, 'ef_search': 1024}",0.953022344520548
+dnn,hnsw,10,"{'M': 16, 'ef_construction': 256, 'ef_search': 32}",0.9520062284246577
+dnn,hnsw,10,"{'M': 16, 'ef_construction': 256, 'ef_search': 256}",0.9538641226027396
+dnn,hnsw,10,"{'M': 16, 'ef_construction': 256, 'ef_search': 512}",0.9542272414383562
+dnn,hnsw,10,"{'M': 16, 'ef_construction': 256, 'ef_search': 1024}",0.9542748452054794
+dnn,hnsw,10,"{'M': 32, 'ef_construction': 16, 'ef_search': 32}",0.9473171458904108
+dnn,hnsw,10,"{'M': 32, 'ef_construction': 16, 'ef_search': 256}",0.947679106849315
+dnn,hnsw,10,"{'M': 32, 'ef_construction': 16, 'ef_search': 512}",0.948034066780822
+dnn,hnsw,10,"{'M': 32, 'ef_construction': 16, 'ef_search': 1024}",0.948144414041096
+dnn,hnsw,10,"{'M': 32, 'ef_construction': 64, 'ef_search': 32}",0.9496383308219178
+dnn,hnsw,10,"{'M': 32, 'ef_construction': 64, 'ef_search': 256}",0.9520466883561644
+dnn,hnsw,10,"{'M': 32, 'ef_construction': 64, 'ef_search': 512}",0.9522405825342464
+dnn,hnsw,10,"{'M': 32, 'ef_construction': 64, 'ef_search': 1024}",0.9530086979452056
+dnn,hnsw,10,"{'M': 32, 'ef_construction': 256, 'ef_search': 32}",0.9534593729452054
+dnn,hnsw,10,"{'M': 32, 'ef_construction': 256, 'ef_search': 256}",0.9550246318493152
+dnn,hnsw,10,"{'M': 32, 'ef_construction': 256, 'ef_search': 512}",0.95543203630137
+dnn,hnsw,10,"{'M': 32, 'ef_construction': 256, 'ef_search': 1024}",0.9553171907534248
+dnn,hnsw,10,"{'M': 256, 'ef_construction': 16, 'ef_search': 32}",0.9562299650684932
+dnn,hnsw,10,"{'M': 256, 'ef_construction': 16, 'ef_search': 256}",0.9567903380136986
+dnn,hnsw,10,"{'M': 256, 'ef_construction': 16, 'ef_search': 512}",0.9567172712328766
+dnn,hnsw,10,"{'M': 256, 'ef_construction': 16, 'ef_search': 1024}",0.9565947811643836
+dnn,hnsw,10,"{'M': 256, 'ef_construction': 64, 'ef_search': 32}",0.954245558219178
+dnn,hnsw,10,"{'M': 256, 'ef_construction': 64, 'ef_search': 256}",0.955098951712329
+dnn,hnsw,10,"{'M': 256, 'ef_construction': 64, 'ef_search': 512}",0.9555449078767124
+dnn,hnsw,10,"{'M': 256, 'ef_construction': 64, 'ef_search': 1024}",0.9554060465753424
+dnn,hnsw,10,"{'M': 256, 'ef_construction': 256, 'ef_search': 32}",0.9524826578767124
+dnn,hnsw,10,"{'M': 256, 'ef_construction': 256, 'ef_search': 256}",0.954095880479452
+dnn,hnsw,10,"{'M': 256, 'ef_construction': 256, 'ef_search': 512}",0.9542098071917808
+dnn,hnsw,10,"{'M': 256, 'ef_construction': 256, 'ef_search': 1024}",0.9544073191780822
+dnn,exact,30,{},0.954260473630137
+dnn,random,30,{},0.2390446260273972
+dnn,hnsw,30,"{'M': 16, 'ef_construction': 16, 'ef_search': 32}",0.9370864671232876
+dnn,hnsw,30,"{'M': 16, 'ef_construction': 16, 'ef_search': 256}",0.9400535729452054
+dnn,hnsw,30,"{'M': 16, 'ef_construction': 16, 'ef_search': 512}",0.9432289503424658
+dnn,hnsw,30,"{'M': 16, 'ef_construction': 16, 'ef_search': 1024}",0.942957460958904
+dnn,hnsw,30,"{'M': 16, 'ef_construction': 64, 'ef_search': 32}",0.9464689160958903
+dnn,hnsw,30,"{'M': 16, 'ef_construction': 64, 'ef_search': 256}",0.9503814705479452
+dnn,hnsw,30,"{'M': 16, 'ef_construction': 64, 'ef_search': 512}",0.9500177749999998
+dnn,hnsw,30,"{'M': 16, 'ef_construction': 64, 'ef_search': 1024}",0.9516224760273972
+dnn,hnsw,30,"{'M': 16, 'ef_construction': 256, 'ef_search': 32}",0.9509836660958904
+dnn,hnsw,30,"{'M': 16, 'ef_construction': 256, 'ef_search': 256}",0.952634154109589
+dnn,hnsw,30,"{'M': 16, 'ef_construction': 256, 'ef_search': 512}",0.9525556866438356
+dnn,hnsw,30,"{'M': 16, 'ef_construction': 256, 'ef_search': 1024}",0.9530090267123288
+dnn,hnsw,30,"{'M': 32, 'ef_construction': 16, 'ef_search': 32}",0.942392639041096
+dnn,hnsw,30,"{'M': 32, 'ef_construction': 16, 'ef_search': 256}",0.9438137520547946
+dnn,hnsw,30,"{'M': 32, 'ef_construction': 16, 'ef_search': 512}",0.9442218907534248
+dnn,hnsw,30,"{'M': 32, 'ef_construction': 16, 'ef_search': 1024}",0.9448183147260274
+dnn,hnsw,30,"{'M': 32, 'ef_construction': 64, 'ef_search': 32}",0.9486512503424658
+dnn,hnsw,30,"{'M': 32, 'ef_construction': 64, 'ef_search': 256}",0.9496154794520548
+dnn,hnsw,30,"{'M': 32, 'ef_construction': 64, 'ef_search': 512}",0.9502408106164384
+dnn,hnsw,30,"{'M': 32, 'ef_construction': 64, 'ef_search': 1024}",0.9516496955479452
+dnn,hnsw,30,"{'M': 32, 'ef_construction': 256, 'ef_search': 32}",0.9523631458904108
+dnn,hnsw,30,"{'M': 32, 'ef_construction': 256, 'ef_search': 256}",0.953186175
+dnn,hnsw,30,"{'M': 32, 'ef_construction': 256, 'ef_search': 512}",0.954210512328767
+dnn,hnsw,30,"{'M': 32, 'ef_construction': 256, 'ef_search': 1024}",0.9537737910958906
+dnn,hnsw,30,"{'M': 256, 'ef_construction': 16, 'ef_search': 32}",0.9546547678082192
+dnn,hnsw,30,"{'M': 256, 'ef_construction': 16, 'ef_search': 256}",0.954006197260274
+dnn,hnsw,30,"{'M': 256, 'ef_construction': 16, 'ef_search': 512}",0.9562551301369864
+dnn,hnsw,30,"{'M': 256, 'ef_construction': 16, 'ef_search': 1024}",0.9550780154109588
+dnn,hnsw,30,"{'M': 256, 'ef_construction': 64, 'ef_search': 32}",0.952374081849315
+dnn,hnsw,30,"{'M': 256, 'ef_construction': 64, 'ef_search': 256}",0.953816696917808
+dnn,hnsw,30,"{'M': 256, 'ef_construction': 64, 'ef_search': 512}",0.9539683537671232
+dnn,hnsw,30,"{'M': 256, 'ef_construction': 64, 'ef_search': 1024}",0.95465086130137
+dnn,hnsw,30,"{'M': 256, 'ef_construction': 256, 'ef_search': 32}",0.9431537325342466
+dnn,hnsw,30,"{'M': 256, 'ef_construction': 256, 'ef_search': 256}",0.9532183815068492
+dnn,hnsw,30,"{'M': 256, 'ef_construction': 256, 'ef_search': 512}",0.9529712801369864
+dnn,hnsw,30,"{'M': 256, 'ef_construction': 256, 'ef_search': 1024}",0.9532330078767124
+nn_guide_msp,exact,1,{},0.9416316794520548
+nn_guide_msp,random,1,{},0.700082357791096
+nn_guide_msp,exact,5,{},0.9556635780821918
+nn_guide_msp,random,5,{},0.7688256597602741
+nn_guide_msp,exact,10,{},0.9605571489726028
+nn_guide_msp,random,10,{},0.7921293261130137
+nn_guide_msp,exact,30,{},0.9673655869863012
+nn_guide_msp,random,30,{},0.8186814983732877
+nn_guide_energy,exact,1,{},0.9902636818493152
+nn_guide_energy,random,1,{},0.4484429436643836
+nn_guide_energy,exact,5,{},0.9937928955479453
+nn_guide_energy,random,5,{},0.4849291875856164
+nn_guide_energy,exact,10,{},0.9951332160958906
+nn_guide_energy,random,10,{},0.5177492714041096
+nn_guide_energy,exact,30,{},0.9967980626712328
+nn_guide_energy,random,30,{},0.5727281397260274
+nn_guide_msp,hnsw,1,"{'M': 16, 'ef_search': 32}",0.9406601167808218
+nn_guide_msp,hnsw,1,"{'M': 16, 'ef_search': 256}",0.9425248424657534
+nn_guide_msp,hnsw,1,"{'M': 16, 'ef_search': 512}",0.9425974561643836
+nn_guide_msp,hnsw,1,"{'M': 16, 'ef_search': 1024}",0.9429919650684931
+nn_guide_msp,hnsw,1,"{'M': 32, 'ef_search': 32}",0.9417601496575343
+nn_guide_msp,hnsw,1,"{'M': 32, 'ef_search': 256}",0.9408216873287671
+nn_guide_msp,hnsw,1,"{'M': 32, 'ef_search': 512}",0.9416828520547944
+nn_guide_msp,hnsw,1,"{'M': 32, 'ef_search': 1024}",0.9404074184931507
+nn_guide_msp,hnsw,1,"{'M': 256, 'ef_search': 32}",0.94281646369863
+nn_guide_msp,hnsw,1,"{'M': 256, 'ef_search': 256}",0.9424595047945205
+nn_guide_msp,hnsw,1,"{'M': 256, 'ef_search': 512}",0.9422375527397261
+nn_guide_msp,hnsw,1,"{'M': 256, 'ef_search': 1024}",0.942087966780822
+nn_guide_msp,hnsw,5,"{'M': 16, 'ef_search': 32}",0.9544401633561643
+nn_guide_msp,hnsw,5,"{'M': 16, 'ef_search': 256}",0.9565153671232878
+nn_guide_msp,hnsw,5,"{'M': 16, 'ef_search': 512}",0.9564893726027397
+nn_guide_msp,hnsw,5,"{'M': 16, 'ef_search': 1024}",0.9562602633561644
+nn_guide_msp,hnsw,5,"{'M': 32, 'ef_search': 32}",0.9550526839041098
+nn_guide_msp,hnsw,5,"{'M': 32, 'ef_search': 256}",0.9564051924657536
+nn_guide_msp,hnsw,5,"{'M': 32, 'ef_search': 512}",0.9561920869863014
+nn_guide_msp,hnsw,5,"{'M': 32, 'ef_search': 1024}",0.9554974219178082
+nn_guide_msp,hnsw,5,"{'M': 256, 'ef_search': 32}",0.9564813561643836
+nn_guide_msp,hnsw,5,"{'M': 256, 'ef_search': 256}",0.9564031047945206
+nn_guide_msp,hnsw,5,"{'M': 256, 'ef_search': 512}",0.9563256034246576
+nn_guide_msp,hnsw,5,"{'M': 256, 'ef_search': 1024}",0.9562464743150685
+nn_guide_msp,hnsw,10,"{'M': 16, 'ef_search': 32}",0.9589077232876714
+nn_guide_msp,hnsw,10,"{'M': 16, 'ef_search': 256}",0.9598685684931507
+nn_guide_msp,hnsw,10,"{'M': 16, 'ef_search': 512}",0.9610625400684931
+nn_guide_msp,hnsw,10,"{'M': 16, 'ef_search': 1024}",0.9613035486301369
+nn_guide_msp,hnsw,10,"{'M': 32, 'ef_search': 32}",0.959040397260274
+nn_guide_msp,hnsw,10,"{'M': 32, 'ef_search': 256}",0.9612827462328767
+nn_guide_msp,hnsw,10,"{'M': 32, 'ef_search': 512}",0.9611474219178082
+nn_guide_msp,hnsw,10,"{'M': 32, 'ef_search': 1024}",0.9612649688356165
+nn_guide_msp,hnsw,10,"{'M': 256, 'ef_search': 32}",0.961494784589041
+nn_guide_msp,hnsw,10,"{'M': 256, 'ef_search': 256}",0.9612019407534247
+nn_guide_msp,hnsw,10,"{'M': 256, 'ef_search': 512}",0.9610213130136986
+nn_guide_msp,hnsw,10,"{'M': 256, 'ef_search': 1024}",0.9610124739726028
+nn_guide_msp,hnsw,30,"{'M': 16, 'ef_search': 32}",0.9654211756849315
+nn_guide_msp,hnsw,30,"{'M': 16, 'ef_search': 256}",0.9683546599315068
+nn_guide_msp,hnsw,30,"{'M': 16, 'ef_search': 512}",0.9680443664383562
+nn_guide_msp,hnsw,30,"{'M': 16, 'ef_search': 1024}",0.968178526369863
+nn_guide_msp,hnsw,30,"{'M': 32, 'ef_search': 32}",0.9664988664383564
+nn_guide_msp,hnsw,30,"{'M': 32, 'ef_search': 256}",0.9682887732876712
+nn_guide_msp,hnsw,30,"{'M': 32, 'ef_search': 512}",0.9682128616438357
+nn_guide_msp,hnsw,30,"{'M': 32, 'ef_search': 1024}",0.9674717030821918
+nn_guide_msp,hnsw,30,"{'M': 256, 'ef_search': 32}",0.9685943171232876
+nn_guide_msp,hnsw,30,"{'M': 256, 'ef_search': 256}",0.9679390849315069
+nn_guide_msp,hnsw,30,"{'M': 256, 'ef_search': 512}",0.9677478561643837
+nn_guide_msp,hnsw,30,"{'M': 256, 'ef_search': 1024}",0.9677069773972603
+nn_guide_energy,hnsw,1,"{'M': 16, 'ef_search': 32}",0.9775637198630137
+nn_guide_energy,hnsw,1,"{'M': 16, 'ef_search': 256}",0.9892045335616438
+nn_guide_energy,hnsw,1,"{'M': 16, 'ef_search': 512}",0.9898367376712329
+nn_guide_energy,hnsw,1,"{'M': 16, 'ef_search': 1024}",0.9900871993150686
+nn_guide_energy,hnsw,1,"{'M': 32, 'ef_search': 32}",0.9825678825342467
+nn_guide_energy,hnsw,1,"{'M': 32, 'ef_search': 256}",0.9896881691780823
+nn_guide_energy,hnsw,1,"{'M': 32, 'ef_search': 512}",0.9900642349315069
+nn_guide_energy,hnsw,1,"{'M': 32, 'ef_search': 1024}",0.9901779965753424
+nn_guide_energy,hnsw,1,"{'M': 256, 'ef_search': 32}",0.9896961154109589
+nn_guide_energy,hnsw,1,"{'M': 256, 'ef_search': 256}",0.990286576369863
+nn_guide_energy,hnsw,1,"{'M': 256, 'ef_search': 512}",0.9902819489726029
+nn_guide_energy,hnsw,1,"{'M': 256, 'ef_search': 1024}",0.9902904996575344
+nn_guide_energy,hnsw,5,"{'M': 16, 'ef_search': 32}",0.9793423832191781
+nn_guide_energy,hnsw,5,"{'M': 16, 'ef_search': 256}",0.9923163089041095
+nn_guide_energy,hnsw,5,"{'M': 16, 'ef_search': 512}",0.9932675530821917
+nn_guide_energy,hnsw,5,"{'M': 16, 'ef_search': 1024}",0.9935758493150684
+nn_guide_energy,hnsw,5,"{'M': 32, 'ef_search': 32}",0.9848009811643835
+nn_guide_energy,hnsw,5,"{'M': 32, 'ef_search': 256}",0.9930834188356163
+nn_guide_energy,hnsw,5,"{'M': 32, 'ef_search': 512}",0.9935633849315069
+nn_guide_energy,hnsw,5,"{'M': 32, 'ef_search': 1024}",0.9936728102739727
+nn_guide_energy,hnsw,5,"{'M': 256, 'ef_search': 32}",0.9931847119863013
+nn_guide_energy,hnsw,5,"{'M': 256, 'ef_search': 256}",0.993754073630137
+nn_guide_energy,hnsw,5,"{'M': 256, 'ef_search': 512}",0.9937645441780822
+nn_guide_energy,hnsw,5,"{'M': 256, 'ef_search': 1024}",0.9937872051369862
+nn_guide_energy,hnsw,10,"{'M': 16, 'ef_search': 32}",0.9823355695205479
+nn_guide_energy,hnsw,10,"{'M': 16, 'ef_search': 256}",0.9937100989726029
+nn_guide_energy,hnsw,10,"{'M': 16, 'ef_search': 512}",0.9945204215753425
+nn_guide_energy,hnsw,10,"{'M': 16, 'ef_search': 1024}",0.994884583561644
+nn_guide_energy,hnsw,10,"{'M': 32, 'ef_search': 32}",0.9865871527397261
+nn_guide_energy,hnsw,10,"{'M': 32, 'ef_search': 256}",0.9940844476027397
+nn_guide_energy,hnsw,10,"{'M': 32, 'ef_search': 512}",0.9948357037671233
+nn_guide_energy,hnsw,10,"{'M': 32, 'ef_search': 1024}",0.9950652702054794
+nn_guide_energy,hnsw,10,"{'M': 256, 'ef_search': 32}",0.9945386157534247
+nn_guide_energy,hnsw,10,"{'M': 256, 'ef_search': 256}",0.9950730688356166
+nn_guide_energy,hnsw,10,"{'M': 256, 'ef_search': 512}",0.9951016976027396
+nn_guide_energy,hnsw,10,"{'M': 256, 'ef_search': 1024}",0.9951212527397261
+nn_guide_energy,hnsw,30,"{'M': 16, 'ef_search': 32}",0.9827812380136987
+nn_guide_energy,hnsw,30,"{'M': 16, 'ef_search': 256}",0.9951542907534245
+nn_guide_energy,hnsw,30,"{'M': 16, 'ef_search': 512}",0.9962248630136987
+nn_guide_energy,hnsw,30,"{'M': 16, 'ef_search': 1024}",0.9965352630136987
+nn_guide_energy,hnsw,30,"{'M': 32, 'ef_search': 32}",0.9889269582191781
+nn_guide_energy,hnsw,30,"{'M': 32, 'ef_search': 256}",0.9958503811643836
+nn_guide_energy,hnsw,30,"{'M': 32, 'ef_search': 512}",0.9965130654109589
+nn_guide_energy,hnsw,30,"{'M': 32, 'ef_search': 1024}",0.9967140691780823
+nn_guide_energy,hnsw,30,"{'M': 256, 'ef_search': 32}",0.9961836839041095
+nn_guide_energy,hnsw,30,"{'M': 256, 'ef_search': 256}",0.9967633989726027
+nn_guide_energy,hnsw,30,"{'M': 256, 'ef_search': 512}",0.9967749684931508
+nn_guide_energy,hnsw,30,"{'M': 256, 'ef_search': 1024}",0.9967957339041097
